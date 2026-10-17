@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "titulo": "EJEMPLO: Estudio de mercado y estrategia",
+    "subtitulo": "Informe de demostración del generador con datos ficticios",
+    "tagline": "Todo el contenido es inventado y sirve solo para probar el formato: EJEMPLO.",
+    "fecha": "1 de enero de 2026 (EJEMPLO)",
+    "metodo": "Datos ficticios rotulados EJEMPLO; ninguna cifra es real",
+    "estado": "Borrador de ejemplo, sin validar",
+    "autor": "Generador de informes (ejemplo)",
+    "pie_titulo": "EJEMPLO Estudio de mercado",
+    "palabras_clave": ["ejemplo", "estudio de mercado", "estrategia", "informe"]
+  },
+  "secciones": [
+    {
+      "titulo": "Resumen para decidir en un minuto",
+      "bloques": [
+        {"tipo": "recuadro", "etiqueta": "En una frase:", "texto": "EJEMPLO: el mercado ficticio de «Producto Alfa» crece con fuerza y conviene pilotar con un primer socio antes de invertir en red propia [1]."},
+        {"tipo": "parrafo", "texto": "Este párrafo de <b>EJEMPLO</b> muestra el cuerpo del texto con <b>negritas</b>, <i>cursivas</i>, referencias a fuentes como [1], [2] o [1, 3] y símbolos: 5 € ≈ 5,00 euros, 3 → 4, ¿qué tal?, ¡atención!, niño, año, canción, México. Las etiquetas de confianza se destacan solas: <b>Dato verificado</b> aparece en azul, Dato antiguo en gris, ESTIMACIÓN en dorado oscuro, Hipótesis y Inferencia con estilo propio. También se admiten marcadores como [H] para hipótesis y [I] para inferencias."},
+        {"tipo": "vinetas", "items": [
+          "<b>Oportunidad.</b> Dato verificado: el segmento ficticio A movió 420 M€ en 2025 [2].",
+          "<b>Riesgo.</b> Estimación: la adopción tardará entre 18 y 30 meses sin un socio ancla [3]. [H]",
+          "<b>Decisión.</b> Inferencia: si el socio ancla acepta, el coste de entrada baja a la mitad. [I]"
+        ]},
+        {"tipo": "nota", "etiqueta": "Límite honesto:", "texto": "Todas las cifras de este ejemplo son inventadas y no describen ningún mercado real. Sirven para comprobar el formato, no para decidir nada."}
+      ]
+    },
+    {
+      "titulo": "Mercado y tamaño",
+      "bloques": [
+        {"tipo": "subtitulo", "texto": "Tamaño por región (EJEMPLO)"},
+        {"tipo": "parrafo", "texto": "El mercado ficticio se reparte de forma desigual entre regiones. La región Norte concentra la mayor parte del gasto, según el estudio imaginario de la fuente [2]. Dato antiguo: la cifra de 2019 era un tercio de la actual [4]."},
+        {"tipo": "grafico", "clase": "barras", "titulo": "Gasto anual por región, 2025 (EJEMPLO)", "pie": "Fuente: datos ficticios [2]. Confianza: Estimación (inventada).", "categorias": ["Norte", "Centro", "Sur", "Este", "Oeste"], "series": [{"nombre": "Gasto 2025", "valores": [420, 310, 255, 180, 95]}], "unidad": "M€", "destacar": 0},
+        {"tipo": "grafico", "clase": "barras", "titulo": "Evolución comparada de dos canales (EJEMPLO)", "pie": "Fuente: datos ficticios [3]. Confianza: Hipótesis.", "categorias": ["2022", "2023", "2024", "2025"], "series": [{"nombre": "Canal físico", "valores": [120, 135, 150, 160]}, {"nombre": "Canal digital", "valores": [40, 70, 115, 170]}], "unidad": "M€", "destacar": 3},
+        {"tipo": "grafico", "clase": "barras", "titulo": "Cuota de ocho competidores ficticios (EJEMPLO)", "pie": "Fuente: datos ficticios [3]. Confianza: Estimación.", "categorias": ["Empresa Uno", "Empresa Dos", "Empresa Tres", "Empresa Cuatro", "Empresa Cinco", "Empresa Seis", "Empresa Siete", "Resto del mercado con nombre largo"], "series": [{"nombre": "Cuota", "valores": [24, 19, 14, 11, 8, 6, 5, 13]}], "unidad": "%", "destacar": 1},
+        {"tipo": "recuadro", "etiqueta": "Qué significa:", "texto": "EJEMPLO: con un mercado repartido entre varias empresas medianas, ninguna controla la referencia común. Eso abre espacio a un estándar neutral, pero también hace más lento el primer acuerdo."},
+        {"tipo": "tabla", "titulo": "Segmentos y tamaño estimado (EJEMPLO)", "columnas": ["Segmento", "Tamaño 2025", "Crecimiento", "Confianza"], "anchos": [3, 2, 2, 2], "filas": [["Segmento A (grandes cadenas)", "420 M€", "+12 %", "Estimación"], ["Segmento B (medianas)", "310 M€", "+8 %", "Dato antiguo"], ["Segmento C (pequeñas)", "180 M€", "+3 %", "Hipótesis"], ["Segmento D (nuevo, recomendado)", "95 M€", "+25 %", "Inferencia"]], "destacar_fila": 3}
+      ]
+    },
+    {
+      "titulo": "Competidores y posicionamiento",
+      "bloques": [
+        {"tipo": "parrafo", "texto": "El plano siguiente sitúa a cinco competidores ficticios según dos ejes inventados. La posición exacta es una <b>Inferencia</b> basada en descripciones públicas imaginarias [3]. El punto destacado es la propuesta del ejemplo."},
+        {"tipo": "grafico", "clase": "mapa", "titulo": "Mapa de posicionamiento (EJEMPLO)", "pie": "Fuente: valoración ficticia del autor [3]. Confianza: Inferencia.", "eje_x": {"nombre": "Apertura del estándar", "izq": "Propietario", "der": "Abierto"}, "eje_y": {"nombre": "Alcance de la red", "abajo": "Reducido", "arriba": "Amplio"}, "puntos": [{"nombre": "Alfa Corp", "x": 0.15, "y": 0.85, "destacado": false}, {"nombre": "Beta Sistemas", "x": 0.3, "y": 0.6, "destacado": false}, {"nombre": "Gamma Red", "x": 0.7, "y": 0.35, "destacado": false}, {"nombre": "Delta Abierta", "x": 0.85, "y": 0.2, "destacado": false}, {"nombre": "Propuesta EJEMPLO", "x": 0.78, "y": 0.72, "destacado": true}, {"nombre": "Épsilon", "x": 0.5, "y": 0.5, "destacado": false}]},
+        {"tipo": "subtitulo", "texto": "Comparativa resumida"},
+        {"tipo": "tabla", "columnas": ["Competidor", "Fortaleza", "Debilidad"], "anchos": [2, 4, 4], "filas": [["Alfa Corp", "Red amplia y marca conocida; acuerdos con las grandes cadenas ficticias.", "Formato cerrado: cada nuevo socio paga una licencia anual."], ["Beta Sistemas", "Integración rápida con los sistemas de caja actuales.", "Cobertura geográfica limitada a una sola región."], ["Gamma Red", "Precio bajo y soporte en varios idiomas.", "Sin gobernanza neutral: decide un único propietario."], ["Propuesta EJEMPLO", "Formato abierto, gobernanza neutral e histórico exportable.", "Sin usuarios todavía: depende de un primer socio ancla."]], "destacar_fila": 3},
+        {"tipo": "nota", "etiqueta": "Nota:", "texto": "Las fortalezas y debilidades de esta tabla son ficticias y no describen a ninguna empresa real."}
+      ]
+    },
+    {
+      "titulo": "Embudo de adopción y estrategia",
+      "bloques": [
+        {"tipo": "parrafo", "texto": "El embudo ficticio resume cuántos usuarios llegarían a cada fase si el primer socio ancla acepta. Las cifras son una <b>Estimación</b> inventada que parte de un supuesto de 1 000 000 de clientes [H]."},
+        {"tipo": "grafico", "clase": "embudo", "titulo": "Embudo de adopción (EJEMPLO)", "pie": "Fuente: supuestos ficticios [3]. Confianza: Hipótesis.", "niveles": [{"etiqueta": "Clientes del socio", "valor": "1 000 000", "detalle": "Base total de clientes con tarjeta del socio ancla ficticio."}, {"etiqueta": "Reciben la oferta", "valor": "600 000", "detalle": "Los que usan la app del banco al menos una vez al mes."}, {"etiqueta": "Activan el opt-in", "valor": "120 000", "detalle": "Suponiendo un 20 % de aceptación; es la cifra que más debe validarse."}, {"etiqueta": "Consultan a diario", "valor": "30 000", "detalle": "Usuarios que miran el detalle de sus compras con frecuencia."}]},
+        {"tipo": "subtitulo", "texto": "Líneas de acción"},
+        {"tipo": "vinetas", "items": [
+          "<b>Cerrar un socio ancla.</b> Sin un primer adoptante, el estándar no tiene valor; el resto del plan depende de este paso.",
+          "<b>Publicar el formato abierto.</b> Es copiable, así que la ventaja está en la red de adheridos y en la gobernanza, no en el formato.",
+          "<b>Medir pronto.</b> Fijar tres métricas de éxito antes del piloto: tasa de casado, opt-in y consulta en contexto."
+        ]},
+        {"tipo": "salto_pagina"},
+        {"tipo": "subtitulo", "texto": "Calendario propuesto"},
+        {"tipo": "tabla", "titulo": "Fases del plan (EJEMPLO)", "columnas": ["Fase", "Plazo", "Entregable", "Estado"], "anchos": [2, 1, 4, 2], "filas": [["Preparación", "Mes 1-2", "Acuerdo de confidencialidad y lista de socios candidatos.", "Hipótesis"], ["Piloto", "Mes 3-6", "Prueba con un socio ancla y un grupo cerrado de usuarios.", "Estimación"], ["Ampliación", "Mes 7-12", "Segundo socio y publicación de la primera versión estable.", "Inferencia"]], "destacar_fila": 1}
+      ]
+    },
+    {
+      "titulo": "Riesgos y símbolos de prueba",
+      "bloques": [
+        {"tipo": "parrafo", "texto": "Esta sección comprueba el escapado: A & B, 1 < 2 y 3 > 2 aparecen tal cual; una etiqueta rota como </b> suelta no interrumpe nada; y <b>una negrita sin cerrar al final no estropea el resto del documento. Se admite también <u>subrayado</u>, <font color=\"#b5452f\">color</font> y un <a href=\"https://example.com/ejemplo?a=1&b=2\">enlace clicable</a>."},
+        {"tipo": "recuadro", "etiqueta": "Conclusión de EJEMPLO:", "texto": "Un informe útil separa lo que se sabe de lo que se supone, enlaza cada cifra con su fuente y deja claro qué falta por validar."},
+        {"tipo": "nota", "etiqueta": "Límite honesto:", "texto": "Aunque el formato funcione, la calidad de un informe depende de las fuentes y del criterio de quien lo escribe, no del generador."}
+      ]
+    }
+  ],
+  "fuentes": [
+    {"id": 1, "texto": "Informe ficticio de mercado (EJEMPLO). Estudio inventado sobre el tamaño del mercado.", "url": "https://example.com/informe-ejemplo", "confianza": "media"},
+    {"id": 2, "texto": "Estadística pública ficticia (EJEMPLO). Serie anual de gasto por región.", "url": "https://example.org/estadistica", "confianza": "alta"},
+    {"id": 3, "texto": "Nota de prensa de una empresa ficticia (EJEMPLO). Describe su propia cuota.", "url": "https://example.net/nota-de-prensa", "confianza": "interesada"},
+    {"id": 4, "texto": "Informe antiguo ficticio de 2019 (EJEMPLO). Útil solo como referencia histórica.", "url": "", "confianza": "baja"}
+  ]
+}
